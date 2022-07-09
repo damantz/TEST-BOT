@@ -30,9 +30,10 @@ client.on("messageCreate", (message) =>{
    }
 });
 
+
 client.on("message", (message) => {
     if (message.content == "!command") {
-        message.author.send("Hey, ciao!");
+        message.author.send("Hey, ciao");
     }
 });
 
