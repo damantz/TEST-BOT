@@ -12,7 +12,7 @@ client.on("ready", () =>{
 client.on("messageCreate", (message) =>{
 
    if(message.content == "!stock"){
-    message.channel.send("Ecco a te il link dove puoi trovare lo stock della pagina, ricordati di aggiornarlo ogni sera: https://www.decathlon.de/p/mikrofaser-badetuch-ultra-kompakt-xl-110-%C3%97-175-cm/_/R-p-158653?mc=8361644&c=ROSA")
+    message.channel.send("Ecco a te il link dove puoi trovare lo stock della pagina, ricordati di aggiornarlo ogni sera: https://docs.google.com/spreadsheets/d/1NBZRGulOLqCe8-L2eDwEXySxpn_P33kH3mSZ7HSL3HE/edit#gid=0")
    }
 
    if(message.content == "!io"){
