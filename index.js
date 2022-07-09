@@ -27,11 +27,13 @@ client.on("messageCreate", (message) =>{
 
         message.channel.send({ embeds: [embed] })
 
-    if (message.content == "!comando"){
-        message.author.send("ehi ciao!");
-    }
    }
 });
 
+client.on("message", (message) => {
+    if (message.content == "!command"){
+        message.author.send("Hey, ciao!");
+    }
+});
 
 
